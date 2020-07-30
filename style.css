@@ -13,6 +13,7 @@ h1, h2 {
 
 
 footer {
+    height: 140px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -37,6 +38,8 @@ footer {
     margin: auto;
     top:2em;
 }
+
+/* About us Page*/
 .nthlogo{
     margin-bottom: 20px;
 }
@@ -53,13 +56,11 @@ footer {
 }
 
 .H2Ologo{
+    margin-top: -40px;
     margin-bottom: 20px;
+
 }
 .about-H2O{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding-top: 1rem;
     padding-bottom:1rem;
     width: 940px;
@@ -120,3 +121,13 @@ footer {
     border-bottom: 0.5em solid gray;
     background: white;
 }
+
+.form-group{
+    margin:50px;
+    max-width: 300px;
+}
+
+.submitbtn{
+    margin: 50px;
+}
+
