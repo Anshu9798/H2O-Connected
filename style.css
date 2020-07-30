@@ -1,0 +1,122 @@
+body {
+    background: rgb(227, 248, 255);
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Applied to "Queueing orders NOW!" */
+.heading-medium {
+    font-size: 2.3em;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: rgb(20, 20, 20);
+    color: white;
+}
+
+.navbar  {
+    background: rgb(129, 219, 255);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:black;
+}
+
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    top:2em;
+}
+.nthlogo{
+    margin-bottom: 20px;
+}
+.about-nth{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    width: 940px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.H2Ologo{
+    margin-bottom: 20px;
+}
+.about-H2O{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    width: 940px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.the-team{
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 180px;
+}
+
+.header {
+    margin-bottom: 2vw; 
+}
+
+/* Present on each "section" of the site */
+.section {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+/* Adds a small gap b/t building pic and ICM */
+#our-new-home .ICM {
+    margin-top: 1em;
+}
+
+#announcements {
+    color: rgb(52, 56, 255);
+}
+
+#dashboard-pic {
+    margin-bottom: 1em;
+}
+
+/* Horizontally centers content */
+#footer-icm {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Defines how to crop images ("Patents" and "Products") */
+.cover      { object-fit: cover; }
+.contain    { object-fit: contain; }
+
+/* Misleading name, also used for 8.5"x11" patent images */
+.thumbnail-square {
+    background: rgb(43, 43, 43);
+    height: 15em;
+    width: 15em;
+}
+
+/* Creates the white sections w/ gray borders */
+.box-section {
+    padding: 2em;
+    border-top: 0.5em solid gray;
+    border-bottom: 0.5em solid gray;
+    background: white;
+}
