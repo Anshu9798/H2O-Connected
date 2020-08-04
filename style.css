@@ -1,133 +1,133 @@
+/*Home Page*/
 body {
-    background: rgb(227, 248, 255);
+  background: rgb(227, 248, 255);
 }
 
-h1, h2 {
-    font-weight: bold;
+h1,
+h2 {
+  font-weight: bold;
 }
 
 /* Applied to "Queueing orders NOW!" */
 .heading-medium {
-    font-size: 2.3em;
+  font-size: 2.3em;
 }
-
 
 footer {
-    height: 140px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background: rgb(20, 20, 20);
-    color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: rgb(20, 20, 20);
+  color: white;
 }
 
-.navbar  {
-    background: rgb(129, 219, 255);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    color:black;
+.navbar {
+  background: rgb(129, 219, 255);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: black;
 }
 
 .navbar-center {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin: auto;
-    top:2em;
-}
-
-/* About us Page*/
-.nthlogo{
-    margin-bottom: 20px;
-}
-.about-nth{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding-top: 1rem;
-    padding-bottom:1rem;
-    width: 940px;
-    word-wrap: break-word;
-    text-align: justify;
-}
-
-.H2Ologo{
-    margin-top: -40px;
-    margin-bottom: 20px;
-
-}
-.about-H2O{
-    padding-top: 1rem;
-    padding-bottom:1rem;
-    width: 940px;
-    word-wrap: break-word;
-    text-align: justify;
-}
-.the-team{
-    float: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 180px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto;
+  top: 2em;
 }
 
 .header {
-    margin-bottom: 2vw; 
+  margin-bottom: 2vw;
 }
 
 /* Present on each "section" of the site */
 .section {
-    margin-top: 2em;
-    margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
 
 /* Adds a small gap b/t building pic and ICM */
 #our-new-home .ICM {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 #announcements {
-    color: rgb(52, 56, 255);
+  color: rgb(52, 56, 255);
 }
 
 #dashboard-pic {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 /* Horizontally centers content */
 #footer-icm {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Defines how to crop images ("Patents" and "Products") */
-.cover      { object-fit: cover; }
-.contain    { object-fit: contain; }
+.cover {
+  object-fit: cover;
+}
+.contain {
+  object-fit: contain;
+}
 
 /* Misleading name, also used for 8.5"x11" patent images */
 .thumbnail-square {
-    background: rgb(43, 43, 43);
-    height: 15em;
-    width: 15em;
+  background: rgb(43, 43, 43);
+  height: 15em;
+  width: 15em;
 }
 
 /* Creates the white sections w/ gray borders */
 .box-section {
-    padding: 2em;
-    border-top: 0.5em solid gray;
-    border-bottom: 0.5em solid gray;
-    background: white;
+  padding: 2em;
+  border-top: 0.5em solid gray;
+  border-bottom: 0.5em solid gray;
+  background: white;
 }
 
-.form-group{
-    margin:50px;
-    max-width: 300px;
+/* About us Page*/
+.nthlogo {
+  margin-bottom: 20px;
+}
+.about-nth {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 940px;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
-.submitbtn{
-    margin: 50px;
+.H2Ologo {
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+.about-H2O {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 940px;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.the-team {
+  float: right;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 180px;
 }
 
+/*Contact Us*/
+.form-group {
+  margin: 50px;
+  max-width: 300px;
+}
+
+.submitbtn {
+  margin: 50px;
+}
