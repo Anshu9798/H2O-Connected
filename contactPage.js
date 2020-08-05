@@ -3,7 +3,7 @@ $("#emailForm").submit((e) => {
 
   $.ajax({
     type: "POST",
-    url: "contactPage.php",
+    url: "sendEmail.php",
     data: $("#emailForm").serialize(),
     success: (res) => console.log(res),
     error: (err) => console.log("Error: " + err),

@@ -20,14 +20,14 @@ footer {
   color: white;
 }
 
-.navbar {
+#banner {
   background: rgb(129, 219, 255);
   padding-top: 2em;
   padding-bottom: 2em;
   color: black;
 }
 
-.navbar-center {
+#banner-center {
   position: absolute;
   width: 100%;
   left: 0;
@@ -129,10 +129,9 @@ footer {
 }
 
 /*Contact Us*/
-.form-group {
-  margin: 50px;
-  max-width: 300px;
-}
+/* .form-group { 
+  margin: 30px;
+} */
 
 .submitbtn {
   margin: 50px;
