@@ -128,6 +128,45 @@ footer {
   -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
+/*Products Section*/
+#LA-6000 {
+  background-color: rgb(81, 9, 173);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.LA-text {
+  font-size: large;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.problems {
+  font-size: large;
+  color: #fff;
+  text-align: center;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+#LA-Pro {
+  background-color: rgb(60, 118, 125);
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.Pro-text {
+  font-size: large;
+  vertical-align: middle;
+  color: #fff;
+}
+#Pro-row {
+  padding: 40px;
+}
+
 /* Contact Us */
 .form-group {
   margin-top: 30px;
