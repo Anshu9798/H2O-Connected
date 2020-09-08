@@ -173,6 +173,12 @@ hr.solid {
   padding: 40px;
 }
 
+.heading {
+  font-size: x-large;
+  vertical-align: middle;
+  color: #fff;
+}
+
 /* Contact Us */
 .form-group {
   margin-top: 30px;
